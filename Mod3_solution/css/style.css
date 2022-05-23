@@ -1,0 +1,169 @@
+/*HEADER*/
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border:5px solid black;
+}
+
+.navbar-brand{
+	padding-top: 30px;
+	height: 70px;
+}
+.navbar-brand h1{/*Restaurant name*/
+	font-family: 'Comic Neue', cursive;
+	color: black;
+	font-size: 1.9em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: .15;
+	
+	}
+	.navbar-brand a:hover, .navbar-brand a:focus{
+		text-decoration: none;
+	}
+	
+	
+	#nav-list{
+		margin-top: 10px;
+		border: 2px solid black;
+		padding: 0;
+
+	}
+	#nav-list a{
+		color: black;
+		background-color: white;
+		text-align: center;
+		border: 2px solid black;
+		font-size: 1.5em;
+	}
+	#nav-list a:hover{
+		background: white;
+	}
+
+	
+	.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+		border: 2px solid black;
+	}
+	.navbar-header button .navbar-toggle{
+		clear: both;
+		margin-top: -30px;
+	}
+	/*Body*/
+	.container p{
+			font-size: 2.5em;
+			font-weight: bold;
+			padding-bottom: 20px;
+		}
+	.container .jumbotron{
+		background-color: gray;
+		border-radius: 0;
+		border:0;
+		color: black;
+	}	
+	.container .jumbotron section{
+		font-family: 'Comic Neue', cursive;
+		font-weight: bold;
+		font-size: 1.2em;
+		/*Large*/
+	}
+	@media(min-width: 1200px){
+		.container .jumbotron{
+			
+			padding: 5px;
+			height: 1000px;
+			margin-left: 5px;
+			margin-right: 5px;
+			/*background-size: 675px;*/
+		}
+		.container .jumbotron section{
+			margin-left: 12px;
+			margin-right: 12px;
+			
+		}
+		
+	}
+	/*Medium*/
+	@media(min-width: 992px) and (max-width: 1199px) {
+		.container .jumbotron{
+			/*margin-top: 30px;*/
+			padding: 10px;
+			height: 1000px;
+			margin-left: 5px;
+			margin-right: 5px;
+			/*background-size: 675px;*/
+		}
+		.container .jumbotron section{
+			margin-left: 12px;
+			margin-right: 12px;
+		}
+	}
+	/*Small*/
+	@media(min-width: 768px) and (max-width: 991px){
+		.container .jumbotron{
+			/*margin-top: 30px;*/
+			padding: 10px;
+			margin-left: 5px;
+			margin-right: 5px;
+			height: 1000px;
+			/*background-size: 675px;*/
+		}
+		.container .jumbotron section{
+			margin-left: 12px;
+			margin-right: 12px;
+		}
+	}
+	/*Extra Small devices only*/
+	@media(max-width: 767px){
+		/*Header*/
+	.navbar-brand{
+		padding-top: 20px;
+		height: 65px;
+	}
+	.navbar-brand h1{/*Restaurant name*/
+		padding-top: 10px;
+		font-size: 6vw;
+	}
+	
+	
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	.container .jumbotron{
+			/*margin-top: 30px;*/
+			padding: 10px;
+			margin-left: 5px;
+			margin-right: 5px;
+			height: 1000px;
+			/*background-size: 675px;*/
+		}
+	.container .jumbotron section{
+			margin-left: 12px;
+			margin-right: 12px;
+		}
+	
+}
+/*Super Extra small devices only*/
+	@media(max-width: 479px){
+		/*Header*/
+		.navbar-brand h1{/*Restaurant name*/
+			padding-top: 5px;
+			font-size: 6vw;
+		}
+		.container .jumbotron{
+			/*margin-top: 30px;*/
+			padding: 10px;
+			margin-top: 10px;
+			margin-left: 5px;
+			margin-right: 5px;
+			height: 1000px;
+			/*background-size: 675px;*/
+		}
+		.container .jumbotron section{
+			margin-left: 12px;
+			margin-right: 12px;
+		}
+		
+		}
